@@ -116,7 +116,7 @@ function App() {
 	}
 
 	return (
-		<div className='App'>
+		<div className="App">
 			<AppBar position={'static'}>
 				<Toolbar>
 					<IconButton edge={'start'} color={'inherit'} aria-label={'menu'}>

@@ -42,8 +42,8 @@ function AddItemForm(props: AddItemFormPropsType) {
 				helperText={error}
 				label={'Title'}
 			/>
-			<IconButton  color={'primary'} onClick={addTask}>
-				<AddBox/>
+			<IconButton color={'primary'} onClick={addTask}>
+				<AddBox />
 			</IconButton>
 		</div>
 	)

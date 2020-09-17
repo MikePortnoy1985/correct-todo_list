@@ -26,7 +26,13 @@ function EditableSpan(props: EditableSpanPropsType) {
 	}
 
 	return editMode ? (
-		<TextField variant={'outlined'} value={title} onBlur={deactivatedEditMode} autoFocus={true} onChange={onChangeTitle} />
+		<TextField
+			variant={'outlined'}
+			value={title}
+			onBlur={deactivatedEditMode}
+			autoFocus={true}
+			onChange={onChangeTitle}
+		/>
 	) : (
 		<span onDoubleClick={activatedEditMode}>{props.value}</span>
 	)

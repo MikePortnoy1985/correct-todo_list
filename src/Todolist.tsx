@@ -52,7 +52,7 @@ function Todolist(props: PropsType) {
 				</IconButton>
 			</h3>
 			<AddItemForm addItem={addTask} />
-			<ul style={{listStyle: 'none', paddingLeft: '0'}}>
+			<ul style={{ listStyle: 'none', paddingLeft: '0' }}>
 				{props.tasks.map((task) => {
 					const removeTask = () => props.removeTask(task.id, props.id)
 
