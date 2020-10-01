@@ -49,7 +49,7 @@ beforeEach(()=> {
 
 	test('correct taskList should be added', () => {
 
-		let newTodolistTitle = 'New Todolist'
+		let newTodolistTitle = 'New CompTodolist'
 
 		const startStateTasks = {
 			[todolistId1]: [],
@@ -73,7 +73,7 @@ beforeEach(()=> {
 
 	test('correct todolist should be added', () => {
 
-		let newTodolistTitle = 'New Todolist'
+		let newTodolistTitle = 'New CompTodolist'
 
 		const endState = todoListReducer(startState, AddTodoListAC(newTodolistTitle))
 
@@ -83,7 +83,7 @@ beforeEach(()=> {
 
 	test('correct todolist should change its name', () => {
 
-		let newTodolistTitle = 'New Todolist'
+		let newTodolistTitle = 'New CompTodolist'
 
 		const endState = todoListReducer(startState, ChangeTodoListTitleAC(todolistId2, newTodolistTitle))
 
