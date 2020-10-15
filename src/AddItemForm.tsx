@@ -45,7 +45,7 @@ export const AddItemForm = React.memo((props: AddItemFormPropsType) => {
 				label={'Title'}
 			/>
 			<IconButton color={'primary'} onClick={addTask}>
-				<AddBox />!
+				<AddBox />
 			</IconButton>
 		</div>
 	)
