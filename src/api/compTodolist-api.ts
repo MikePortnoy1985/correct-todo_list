@@ -22,7 +22,7 @@ type ResponseType<T> = {
 	resultCode: number
 }
 
-const todolistAPI = {
+const compTodolistApi = {
 	GetTodo() {
 		return instance.get<Array<TodolistType>>(`/todo-lists/`)
 	},
@@ -39,4 +39,4 @@ const todolistAPI = {
 	},
 }
 
-export default todolistAPI
+export default compTodolistApi
